@@ -27,10 +27,8 @@ class CarDetailScreen extends ConsumerWidget {
                 const SizedBox(
                   height: 40,
                 ),
-                Container(
-                  margin: const EdgeInsets.only(bottom: 37),
-                  height: 288,
-                  width: 375,
+                Expanded(
+                  flex: 4,
                   child: Image.asset(car.asset),
                 ),
                 const SizedBox(
